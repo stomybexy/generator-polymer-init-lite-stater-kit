@@ -1,0 +1,7 @@
+{
+  "name": "<%= appName %>",
+  "short_name": "<%= appName %>",
+  "description": "<%= appName %> description",
+  "start_url": "/",
+  "display": "standalone"
+}

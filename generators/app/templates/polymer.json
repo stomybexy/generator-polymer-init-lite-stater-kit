@@ -1,0 +1,17 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/<%= rootElement %>.html",
+  "fragments": [
+    "src/<%= homeElement %>.html",
+    "src/<%= appName %>-view404.html"
+  ],
+  "sourceGlobs": [
+   "src/**/*",
+   "images/**/*",
+   "bower.json"
+  ],
+  "includeDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/webcomponents-lite.min.js"
+  ]
+}
